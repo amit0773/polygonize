@@ -4,8 +4,8 @@ require File.expand_path('../lib/polygonize/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["milligramme"]
   gem.email         = ["milligramme.cc@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{convert text to hex array}
+  gem.summary       = %q{convert text to hex array}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
@@ -14,4 +14,9 @@ Gem::Specification.new do |gem|
   gem.name          = "polygonize"
   gem.require_paths = ["lib"]
   gem.version       = Polygonize::VERSION
+  
+  gem.add_development_dependency 'rspec'
+  gem.add_development_dependency 'guard'
+  gem.add_development_dependency 'guard-rspec'
+  gem.add_development_dependency 'growl'
 end
