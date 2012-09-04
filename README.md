@@ -1,6 +1,6 @@
 # Polygonize
 
-TODO: Write a gem description
+Any text convert to svg polygon coordinates
 
 ## Installation
 
@@ -18,7 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    include Polygonize
+    coordinates( TEXT )
+    # => {"points" => "x1,y1 x2,y2 x3,y3.....", "text" => "ORIGINAL_TEXT"}
 
 ## Contributing
 
