@@ -23,7 +23,8 @@ describe "Polygonize" do
     end
     
     it "各要素は255(FF)以下である" do
-      txt.coordinates.split(" ").flatten.reject! { |x| x.to_i < 255}
+      ret = txt.coordinates.split(" ").flatten.reject! { |x| x.to_i < 255}
+      ret.should eql []
     end
   end
 
