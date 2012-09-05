@@ -20,7 +20,7 @@ Or install it yourself as:
 
     include Polygonize
     ORIGINAL_TEXT.coordinates
-    # => {"points" => "x1,y1 x2,y2 x3,y3.....", "text" => "ORIGINAL_TEXT"}
+    # => "x1,y1 x2,y2 x3,y3....."
 
 ## Contributing
 

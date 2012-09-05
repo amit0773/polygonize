@@ -7,7 +7,6 @@ module Polygonize
     def coordinates 
       ar1 = []
       ar2 = []
-      ret = {}
 
       self.split(//).each do | char |
         u = format("%x", char.unpack("U*")[0])
@@ -23,9 +22,7 @@ module Polygonize
         ar2 << [a, b].map! { |c| c.hex }.join(",")
       end
 
-      ret['points'] = ar2.join(" ")
-      ret['text'] = self
-      ret
+      ar2.join(" ")
     end
   end
 end
