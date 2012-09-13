@@ -1,7 +1,7 @@
 # Polygonize
 
 Any text convert to svg polygon coordinates
-[![Build Status](https://secure.travis-ci.org/CloudifySource/cloudify.png)](http://travis-ci.org/CloudifySource/cloudify)
+[![Build Status](https://secure.travis-ci.org/CloudifySource/cloudify.png)](http://travis-ci.org/milligramme/polygonize)
 
 ## Installation
 
