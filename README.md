@@ -19,9 +19,14 @@ Or install it yourself as:
 
 ## Usage
 
-    include Polygonize
-    ORIGINAL_TEXT.coordinates
-    # => "x1,y1 x2,y2 x3,y3....."
+    require 'polygonize'
+	
+	fill_color = 'none'
+	stroke_color = '#222'
+	ORIGINAL_TEXT.to_svg(fill_color, stroke_color)
+	# => "<html><body><div class='svg'><svg xmlns='http://www.w3.org/2000/svg'><polygon....</html>"
+
+  ![Svg](examples/svg.png)
 
 ## Contributing
 
