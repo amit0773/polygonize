@@ -24,5 +24,9 @@ module Polygonize
 
       ar2.join(" ")
     end
+    
+    def to_svg(fill_color="none", stroke_color="#333")
+      "<html><body><div class='svg'><svg xmlns='http://www.w3.org/2000/svg'><polygon fill='#{fill_color}' points='#{self.coordinates}' stroke='#{stroke_color}'></polygon></svg></div></body></html>"
+    end
   end
 end
