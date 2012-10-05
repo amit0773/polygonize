@@ -26,7 +26,7 @@ Or install it yourself as:
 	ORIGINAL_TEXT.to_svg(fill_color, stroke_color)
 	# => "<html><body><div class='svg'><svg xmlns='http://www.w3.org/2000/svg'><polygon....</html>"
 
-  ![Svg](examples/svg.png)
+  ![Svg](./examples/svg.png)
 
 ## Contributing
 
